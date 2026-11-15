@@ -90,7 +90,7 @@ Mẫu số `Câu có citation` là số câu trả lời thực sự được tr
 - Snapshot trước test: `results/agent_test/dev_selection_snapshot.json`; trạng thái sau test: `results/test_execution.json`.
 - Hướng dẫn tái lập: `docs/RUN_PROJECT.md`; phân tích dev/test: `docs/AGENT_DEV.md`, `docs/AGENT_TEST.md`.
 
-Chi phí dùng usage thực tế và đơn giá chuẩn đã lưu ngày 14/11/2026, chưa trừ giảm giá cache, không phải hóa đơn; chưa tính điện/phần cứng hoặc tải model. Nguồn đơn giá: https://developers.openai.com/api/docs/models/gpt-4.1-mini .
+Chi phí dùng usage thực tế và đơn giá chuẩn đã lưu ngày 16/11/2026, chưa trừ giảm giá cache, không phải hóa đơn; chưa tính điện/phần cứng hoặc tải model. Nguồn đơn giá: https://developers.openai.com/api/docs/models/gpt-4.1-mini .
 
 Agent dev: **0.0593828 USD**; agent test: **0.0084760 USD**; demo ba lần: **0.0034404 USD**. Tổng API ước tính đã ghi: **0.0712992 USD**. Retrieval/embedding local không gọi API trả phí.
 
@@ -100,4 +100,19 @@ B/C Day 6 có 2 chunk vượt giới hạn 256 token của embedding model, tố
 
 ## Thử thách nâng cao (nếu thực hiện)
 
-**Không thực hiện.** Corpus hiện tại là TXT trích RFC, không đáp ứng thử thách một tài liệu từ 100 trang có bảng, ảnh và biểu đồ; không đăng ký 15 điểm bonus và không sử dụng kết quả test cơ bản để tuyên bố đạt ngưỡng nâng cao. Phần cơ bản tối đa 85 điểm; báo cáo không tự chấm điểm môn học.
+- Tài liệu, nguồn, quyền sử dụng, số trang và phiên bản:
+- Cách xử lý text, bảng, ảnh, biểu đồ; phạm vi index và phần chưa xử lý:
+- Cách chia benchmark, schema evidence, model và cấu hình đã chốt trên dev:
+
+| Nhóm test | Đạt / tổng | Tỷ lệ | Lỗi / nhận xét |
+|---|---|---|---|
+| Bảng | | | |
+| Ảnh, sơ đồ | | | |
+| Biểu đồ | | | |
+| Multi-hop | | | |
+| Text | | | |
+| Thiếu bằng chứng | | | |
+| **Toàn bộ** | | | |
+
+- Trace, nhãn và evidence từng câu; thời gian, chi phí, lỗi hệ thống:
+- Giới hạn, cách tái lập và đường dẫn benchmark:
