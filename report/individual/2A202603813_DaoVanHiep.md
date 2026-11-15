@@ -4,7 +4,7 @@
 
 **Chủ đề:** Agentic RAG trên RFC 6749, tiếp nối corpus Day 6.
 
-**Repo:** https://github.com/daohiep2903/K5-L3-Day07-2A202603813--Retrieval-Context-Engineering
+**Repo:** https://github.com/daohiep2903/K5-L3B-Day07-2A202603813--Retrieval-Context-Engineering
 
 Phương pháp thực hiện có AI hỗ trợ lập trình, chạy và đối chiếu nguồn; học viên đã duyệt toàn bộ nhãn dev ngày 15/11/2026. Học viên đã xác nhận duyệt toàn bộ nhãn test ngày 15/11/2026; hồ sơ tại `results/student_test_review_confirmation.json`. Báo cáo sử dụng số liệu chạy thật, không dùng mock làm benchmark và không sửa cấu hình sau khi xem test.
 
