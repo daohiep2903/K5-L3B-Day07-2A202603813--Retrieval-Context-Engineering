@@ -12,7 +12,7 @@
 - [x] Học viên duyệt nhãn test ngày 15/11/2026; xác nhận đủ 14 trường hợp.
 - [x] Báo cáo được định dạng theo mẫu, bảng lấy từ số liệu thực nghiệm.
 - [x] Có README/hướng dẫn chạy, nhật ký thí nghiệm và thông báo nguồn.
-- [ ] Rà soát cuối và commit/push repo Day 7; điền commit chốt trong STUDENT.md.
+- [x] Rà soát cuối, commit bài Day 7 và điền commit chốt trong STUDENT.md.
 - [ ] Kiểm tra người chấm truy cập được repo và nộp link theo hướng dẫn lớp.
 
 Thử thách nâng cao: không thực hiện, không yêu cầu 15 điểm bonus. Bài chưa được nộp chỉ vì các tệp đã có trên máy; cần hoàn tất các mục chưa đánh dấu.
