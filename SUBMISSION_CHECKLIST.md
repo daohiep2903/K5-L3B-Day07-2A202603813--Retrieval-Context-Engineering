@@ -9,7 +9,7 @@
 - [x] Nhãn dev được học viên duyệt; giữ lịch sử phương pháp.
 - [x] Baseline và cấu hình đã chốt chạy đủ 7 câu test mỗi cấu hình, không chỉnh theo test.
 - [x] Có bản nhãn đối chiếu nguồn cho toàn bộ 14 trường hợp test.
-- [x] Học viên duyệt nhãn test ngày 15/11/2026; xác nhận đủ 14 trường hợp.
+- [x] Học viên duyệt nhãn test ngày 16/11/2026; xác nhận đủ 14 trường hợp.
 - [x] Báo cáo được định dạng theo mẫu, bảng lấy từ số liệu thực nghiệm.
 - [x] Có README/hướng dẫn chạy, nhật ký thí nghiệm và thông báo nguồn.
 - [x] Rà soát cuối, commit bài Day 7 và điền commit chốt trong STUDENT.md.
