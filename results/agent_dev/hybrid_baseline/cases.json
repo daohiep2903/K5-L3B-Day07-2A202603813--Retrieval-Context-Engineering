@@ -1,0 +1,358 @@
+[
+  {
+    "id": "d7-dev-q01",
+    "split": "dev",
+    "answerable": true,
+    "question": "Is a client identifier secret, and can it authenticate a client alone?",
+    "expected_answer": "It is not secret and MUST NOT be used alone for client authentication.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 3,
+        "evidence": "The authorization server issues the registered client a client\n   identifier -- a unique string representing the registration\n   information provided by the client.  The client identifier is not a\n   secret; it is exposed to the resource owner and MUST NOT be used\n   alone for client authentication.  The client identifier is unique to\n   the authorization server.",
+        "section": "2.2",
+        "chunk_id": "7ccab14996fd6670bf9701fd6c79d074f567fb28b48f0494c9b5d5f2086b4d66",
+        "char_start": 4489,
+        "char_end_exclusive": 4854
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q02",
+    "split": "dev",
+    "answerable": true,
+    "question": "How many authentication methods may a client use in one request?",
+    "expected_answer": "At most one.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 4,
+        "evidence": "The client MUST NOT use more than one authentication method in each\n   request.",
+        "section": "2.3",
+        "chunk_id": "6385eeec13d3bd3c7c1b2a657d415662a5dd18e3b5495f38b337d3f32c6c65ec",
+        "char_start": 5850,
+        "char_end_exclusive": 5929
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q03",
+    "split": "dev",
+    "answerable": true,
+    "question": "According to section 2, which authentication scheme must the server support for clients issued a client password?",
+    "expected_answer": "HTTP Basic.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 4,
+        "evidence": "Clients in possession of a client password MAY use the HTTP Basic\n   authentication scheme as defined in [RFC2617] to authenticate with\n   the authorization server.  The client identifier is encoded using the\n   \"application/x-www-form-urlencoded\" encoding algorithm per\n   Appendix B, and the encoded value is used as the username; the client\n   password is encoded using the same algorithm and used as the\n   password.  The authorization server MUST support the HTTP Basic\n   authentication scheme for authenticating clients that were issued a\n   client password.",
+        "section": "2.3.1",
+        "chunk_id": "52f51195f28b770e7180d7dc2a648b4bbfb8f9255e09166b31d629dc8cba4cc1",
+        "char_start": 5959,
+        "char_end_exclusive": 6524
+      }
+    ],
+    "filter": {
+      "top_level_section": "2"
+    },
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q04",
+    "split": "dev",
+    "answerable": true,
+    "question": "Where may client credentials supplied as body parameters be transmitted?",
+    "expected_answer": "Only in the request body, never in the request URI.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 5,
+        "evidence": "Including the client credentials in the request-body using the two\n   parameters is NOT RECOMMENDED and SHOULD be limited to clients unable\n   to directly utilize the HTTP Basic authentication scheme (or other\n   password-based HTTP authentication schemes).  The parameters can only\n   be transmitted in the request-body and MUST NOT be included in the\n   request URI.",
+        "section": "2.3.1",
+        "chunk_id": "742b33add5702a33de11ebb7a3daab29f9e2f4158095dd6c8c62b01dab7e8ff2",
+        "char_start": 7102,
+        "char_end_exclusive": 7470
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q05",
+    "split": "dev",
+    "answerable": true,
+    "question": "What attack must endpoints using password client authentication protect against?",
+    "expected_answer": "Brute force attacks.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 5,
+        "evidence": "Since this client authentication method involves a password, the\n   authorization server MUST protect any endpoint utilizing it against\n   brute force attacks.",
+        "section": "2.3.1",
+        "chunk_id": "5ab56f0a7e20780766bd6b887c0404215972653e1e226ab23c21edd15a764872",
+        "char_start": 8008,
+        "char_end_exclusive": 8167
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q06",
+    "split": "dev",
+    "answerable": true,
+    "question": "According to section 3, may the authorization endpoint URI contain a fragment?",
+    "expected_answer": "No.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 7,
+        "evidence": "The endpoint URI MAY include an \"application/x-www-form-urlencoded\"\n   formatted (per Appendix B) query component ([RFC3986] Section 3.4),\n   which MUST be retained when adding additional query parameters.  The\n   endpoint URI MUST NOT include a fragment component.",
+        "section": "3.1",
+        "chunk_id": "4a5d1d2a0e18d68970182108d993a20fe5a0998aeffe89df150f8f1634a9be0a",
+        "char_start": 10137,
+        "char_end_exclusive": 10402
+      }
+    ],
+    "filter": {
+      "top_level_section": "3"
+    },
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q07",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which HTTP method must clients use for access token requests?",
+    "expected_answer": "POST.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 11,
+        "evidence": "The client MUST use the HTTP \"POST\" method when making access token\n   requests.",
+        "section": "3.2",
+        "chunk_id": "12645e36888c4155402b75a8d484ededf83fb6e37e29d9cfd4c62a5a18ddb900",
+        "char_start": 18175,
+        "char_end_exclusive": 18255
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q08",
+    "split": "dev",
+    "answerable": true,
+    "question": "What maximum authorization code lifetime is recommended?",
+    "expected_answer": "10 minutes.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 17,
+        "evidence": "A\n         maximum authorization code lifetime of 10 minutes is\n         RECOMMENDED.",
+        "section": "4.1.2",
+        "chunk_id": "3c89e1bc854abfb7b0cff2e6ad932dc51dc607c4f590a5a5dafdd183f89545c5",
+        "char_start": 28053,
+        "char_end_exclusive": 28138
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q09",
+    "split": "dev",
+    "answerable": true,
+    "question": "May the authorization server issue a refresh token in the implicit grant?",
+    "expected_answer": "No.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 26,
+        "evidence": "The authorization server MUST NOT issue a refresh token.",
+        "section": "4.2.2",
+        "chunk_id": "13ccde980b433eea252b77c20a2024081a59161df46bee29e7c17395f570b312",
+        "char_start": 43301,
+        "char_end_exclusive": 43357
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q10",
+    "split": "dev",
+    "answerable": true,
+    "question": "When must a client discard resource owner credentials in the password credentials grant?",
+    "expected_answer": "Once an access token has been obtained.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 30,
+        "evidence": "The method through which the client obtains the resource owner\n   credentials is beyond the scope of this specification.  The client\n   MUST discard the credentials once an access token has been obtained.",
+        "section": "4.3.1",
+        "chunk_id": "b0721d659dbbac34e77aec2109e0c5f89d1d0c8d251d3c076f1de52d89365cca",
+        "char_start": 49911,
+        "char_end_exclusive": 50115
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q11",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which client type is permitted to use the client credentials grant?",
+    "expected_answer": "Confidential clients only.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 32,
+        "evidence": "The client credentials grant type MUST only be used by confidential\n   clients.",
+        "section": "4.4",
+        "chunk_id": "0f2f66db974113f549014bd0f3fa5f1c406ab1a7c8cca127492bfb4f8cb3b13e",
+        "char_start": 53021,
+        "char_end_exclusive": 53100
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q12",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which cache-control headers are required in responses containing tokens or credentials?",
+    "expected_answer": "Cache-Control: no-store and Pragma: no-cache.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 35,
+        "evidence": "The authorization server MUST include the HTTP \"Cache-Control\"\n   response header field [RFC2616] with a value of \"no-store\" in any\n   response containing tokens, credentials, or other sensitive\n   information, as well as the \"Pragma\" response header field [RFC2616]\n   with a value of \"no-cache\".",
+        "section": "5.1",
+        "chunk_id": "7f93ae89fddbe46d28eed5176e3c55c6a894a978e98eb2c4a9f47067c4a15e35",
+        "char_start": 58897,
+        "char_end_exclusive": 59194
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q13",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which token error covers an expired or revoked authorization grant or refresh token?",
+    "expected_answer": "invalid_grant.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 36,
+        "evidence": "invalid_grant\n               The provided authorization grant (e.g., authorization\n               code, resource owner credentials) or refresh token is\n               invalid, expired, revoked, does not match the redirection\n               URI used in the authorization request, or was issued to\n               another client.",
+        "section": "5.2",
+        "chunk_id": "d8bea725dc5af63385e1878ba68cf8c780057153cc963512fcf920f845790798",
+        "char_start": 61236,
+        "char_end_exclusive": 61562
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q14",
+    "split": "dev",
+    "answerable": true,
+    "question": "What must a client do when the authorization server issues a replacement refresh token?",
+    "expected_answer": "Discard the old refresh token and replace it with the new one.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 39,
+        "evidence": "The authorization server MAY issue a new refresh token, in which case\n   the client MUST discard the old refresh token and replace it with the\n   new refresh token.  The authorization server MAY revoke the old\n   refresh token after issuing a new refresh token to the client.  If a\n   new refresh token is issued, the refresh token scope MUST be\n   identical to that of the refresh token included by the client in the\n   request.",
+        "section": "6",
+        "chunk_id": "d2aab04ada7bba4cab02f124d2d2495327b33d16b06aabb2ff2ec6993aef666c",
+        "char_start": 65739,
+        "char_end_exclusive": 66168
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-q15",
+    "split": "dev",
+    "answerable": true,
+    "question": "May a client use an access token whose token type it does not understand?",
+    "expected_answer": "No.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 40,
+        "evidence": "The access token type provides the client with the information\n   required to successfully utilize the access token to make a protected\n   resource request (along with type-specific attributes).  The client\n   MUST NOT use an access token if it does not understand the token\n   type.",
+        "section": "7.1",
+        "chunk_id": "8ae046a3b45b583a872e245d0babe7ae0a7312e047bd2d91d78786d31ea7adce",
+        "char_start": 67132,
+        "char_end_exclusive": 67415
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "Day 6 dev question, reviewed for Day 7; never claimed unseen",
+    "annotation_note": "Context-inappropriate alternatives removed; q08 complete recommendation sentence selected."
+  },
+  {
+    "id": "d7-dev-abs-01",
+    "split": "dev",
+    "answerable": false,
+    "question": "Which exact code_verifier length does this corpus require for the PKCE S256 flow?",
+    "gold": [],
+    "expected_behavior": "search_and_abstain",
+    "expected_answer": "The supplied corpus does not provide sufficient evidence to answer this question.",
+    "absence_reason": "The selected RFC sections contain no PKCE S256 or code_verifier requirements.",
+    "filter": null
+  },
+  {
+    "id": "d7-dev-abs-02",
+    "split": "dev",
+    "answerable": false,
+    "question": "Which JWT signing algorithm does this corpus require for access tokens?",
+    "gold": [],
+    "expected_behavior": "search_and_abstain",
+    "expected_answer": "The supplied corpus does not provide sufficient evidence to answer this question.",
+    "absence_reason": "No JWT signing algorithm is specified in the selected text. Token examples are not a mandate for a JWT algorithm.",
+    "filter": null
+  }
+]

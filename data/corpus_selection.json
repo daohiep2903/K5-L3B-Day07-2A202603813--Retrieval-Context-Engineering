@@ -1,0 +1,30 @@
+{
+  "document_id": "rfc6749",
+  "title": "The OAuth 2.0 Authorization Framework",
+  "input_file": "data/data_tu_tim.txt",
+  "selected_file": "data/oauth2_sections_2_to_7.txt",
+  "sections": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+  ],
+  "original_start_line": 707,
+  "original_end_line": 2763,
+  "original_char_start": 32420,
+  "original_char_end_exclusive": 107973,
+  "input_sha256": "5de1a793086e4da974a920cc5bbcf7d6a02ab61f602a50a7ff2928f3da6113a9",
+  "normalized_characters": 69758,
+  "page_count_status": "Not yet validated; create and record >=30 sequential content units of >=1500 normalized characters, with source offsets.",
+  "source_url_stated_in_document": "http://www.rfc-editor.org/info/rfc6749",
+  "copyright_notice": "Copyright (c) 2012 IETF Trust and the persons identified as the document authors. All rights reserved.",
+  "permission_note": "Rights reviewed 2026-11-13. See data/RIGHTS_REVIEW.md; retain RFC6749_NOTICES.txt with related excerpts. TLP 4.0 permits attributed unmodified excerpts subject to notice requirements; no blanket modification license.",
+  "cleanup": [
+    "Removed repeating RFC page headers and Hardt page footers",
+    "Collapsed excess blank lines",
+    "Preserved paragraph indentation, examples and diagrams"
+  ],
+  "scope_note": "Historical RFC 6749 text; this selection is a retrieval corpus, not current OAuth deployment advice."
+}

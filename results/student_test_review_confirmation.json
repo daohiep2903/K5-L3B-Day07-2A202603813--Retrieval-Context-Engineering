@@ -1,0 +1,11 @@
+{
+  "student_name": "Đào Văn Hiệp",
+  "student_id": "2A202603813",
+  "date": "2026-11-15",
+  "scope": "All 14 test-case reviews: answers, contexts, citations and abstention for frozen baseline and selected configuration.",
+  "statement": "tôi xác nhận duyệt nhãn test",
+  "status": "student_approved_all_existing_test_labels",
+  "label_fingerprint": "8d514fbb57cde49e141262c1355eafd4a2d587483681b0ab1a1415ce5dac2ab4",
+  "method_note": "Initial direct source review was AI-assisted. Student explicitly approved the labels in conversation. No blind independent audit is asserted.",
+  "test_tuning": false
+}

@@ -1,0 +1,251 @@
+[
+  {
+    "query_id": "d7-dev-q01",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 1,
+    "citation_support": [
+      true,
+      false
+    ],
+    "reason": "Identifier non-secret/MUST NOT alone is correct and supported by C071. Added generic requirement for secret/password authentication overgeneralizes C073, which is qualified to confidential/credentialed clients.",
+    "context_grade": 2,
+    "context_reason": "Read the supplied final context and cited excerpts; the evidence required for the primary question is present, regardless of extra answer claims.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q02",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Preserves explicit MUST NOT use more than one authentication method in one request; C059 contains the direct rule.",
+    "context_grade": 2,
+    "context_reason": "Read the supplied final context and cited excerpts; the evidence required for the primary question is present, regardless of extra answer claims.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q03",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct HTTP Basic support requirement for clients issued a password; encoding and username/password mapping supported by C048.",
+    "context_grade": 2,
+    "context_reason": "Read the supplied final context and cited excerpts; the evidence required for the primary question is present, regardless of extra answer claims.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q04",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 1,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Correct main placement/URI rule and NOT RECOMMENDED caveat (C066), and TLS/POST rules (C011). Added form/UTF-8 encoding detail is not established by these cited excerpts, so not fully grounded; reference validity does not equal full claim coverage.",
+    "context_grade": 2,
+    "context_reason": "Read the supplied final context and cited excerpts; the evidence required for the primary question is present, regardless of extra answer claims.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q05",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "citation_support": [
+      false
+    ],
+    "reason": "Says brute force but cites C054 in resource-owner password credentials flow, not client-password authentication. This reproduces the gold-context pitfall; source does not establish the intended client-password rule.",
+    "context_grade": 1,
+    "context_reason": "Related password-flow evidence is present, but it is resource-owner-password scope rather than the client-password rule asked.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q06",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Direct fragment prohibition for authorization endpoint, supported by C042 in section 3.1.",
+    "context_grade": 2,
+    "context_reason": "Read the supplied final context and cited excerpts; the evidence required for the primary question is present, regardless of extra answer claims.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q07",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "POST requirement is explicit in C011.",
+    "context_grade": 2,
+    "context_reason": "Read the supplied final context and cited excerpts; the evidence required for the primary question is present, regardless of extra answer claims.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q08",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct 10-minute RECOMMENDED maximum, not overstated as MUST; C031 contains the complete recommendation despite later text being clipped.",
+    "context_grade": 2,
+    "context_reason": "Read the supplied final context and cited excerpts; the evidence required for the primary question is present, regardless of extra answer claims.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q09",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "C091 directly states implicit grant does not support issuance of refresh tokens.",
+    "context_grade": 2,
+    "context_reason": "C091 section 4.2 explicitly rules out refresh tokens for implicit grant; accepted as equivalent support even though the full original gold quote in 4.2.2 is absent.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q10",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "C088 directly requires discarding resource-owner credentials once access token is obtained.",
+    "context_grade": 2,
+    "context_reason": "Read the supplied final context and cited excerpts; the evidence required for the primary question is present, regardless of extra answer claims.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q11",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "C009 explicitly limits client credentials grant to confidential clients.",
+    "context_grade": 2,
+    "context_reason": "Read the supplied final context and cited excerpts; the evidence required for the primary question is present, regardless of extra answer claims.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q12",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "C074 supports both required headers and sensitive-response condition.",
+    "context_grade": 2,
+    "context_reason": "Read the supplied final context and cited excerpts; the evidence required for the primary question is present, regardless of extra answer claims.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q13",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "C104 defines invalid_grant including expired/revoked grant and refresh token conditions.",
+    "context_grade": 2,
+    "context_reason": "Read the supplied final context and cited excerpts; the evidence required for the primary question is present, regardless of extra answer claims.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q14",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "C101 supports discard-and-replace, optional revocation and identical replacement scope, preserving conditions.",
+    "context_grade": 2,
+    "context_reason": "Read the supplied final context and cited excerpts; the evidence required for the primary question is present, regardless of extra answer claims.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-q15",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "C076 directly states the MUST NOT use unknown token type rule.",
+    "context_grade": 2,
+    "context_reason": "Read the supplied final context and cited excerpts; the evidence required for the primary question is present, regardless of extra answer claims.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-abs-01",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Delivered output explicitly refuses unsupported PKCE/JWT requirement and adds no unsupported claims; checked against selected corpus absence review.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  },
+  {
+    "query_id": "d7-dev-abs-02",
+    "reviewer": "Đào Văn Hiệp (approved)",
+    "reviewed_at": "2026-11-15",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Delivered output explicitly refuses unsupported PKCE/JWT requirement and adds no unsupported claims; checked against selected corpus absence review.",
+    "review_status": "student_approved",
+    "confirmed_at": "2026-11-15",
+    "confirmation_file": "results/student_dev_review_confirmation.json"
+  }
+]

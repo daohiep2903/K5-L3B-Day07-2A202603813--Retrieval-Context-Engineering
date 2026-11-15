@@ -1,0 +1,133 @@
+[
+  {
+    "id": "d7-test-01",
+    "split": "test",
+    "answerable": true,
+    "question": "According to section 3, what must the server include when the granted access-token scope differs from the requested scope?",
+    "expected_answer": "The scope response parameter, to inform the client of the actual scope granted.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 13,
+        "evidence": "The authorization server MAY fully or partially ignore the scope\n   requested by the client, based on the authorization server policy or\n   the resource owner's instructions.  If the issued access token scope\n   is different from the one requested by the client, the authorization\n   server MUST include the \"scope\" response parameter to inform the\n   client of the actual scope granted.",
+        "section": "3.3",
+        "chunk_id": "4a350d189495806963681d5e6163866f606058547278c2ffbdd05b74f6423e73",
+        "char_start": 20904,
+        "char_end_exclusive": 21291
+      }
+    ],
+    "filter": {
+      "top_level_section": "3"
+    },
+    "expected_behavior": "search_and_answer",
+    "origin": "New Day 7 question; not reused from Day 6 test"
+  },
+  {
+    "id": "d7-test-02",
+    "split": "test",
+    "answerable": true,
+    "question": "According to section 3, what should happen when an authorization request has a missing, invalid, or mismatching redirect URI?",
+    "expected_answer": "The server SHOULD inform the resource owner of the error and MUST NOT automatically redirect to the invalid URI.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 10,
+        "evidence": "If an authorization request fails validation due to a missing,\n   invalid, or mismatching redirection URI, the authorization server\n   SHOULD inform the resource owner of the error and MUST NOT\n   automatically redirect the user-agent to the invalid redirection URI.",
+        "section": "3.1.2.4",
+        "chunk_id": "38fa0f11e5a6fcb3fd625fff736f35b18179dd8b5b11273ed74e18f16f63047c",
+        "char_start": 15983,
+        "char_end_exclusive": 16249
+      }
+    ],
+    "filter": {
+      "top_level_section": "3"
+    },
+    "expected_behavior": "search_and_answer",
+    "origin": "New Day 7 question; not reused from Day 6 test"
+  },
+  {
+    "id": "d7-test-03",
+    "split": "test",
+    "answerable": true,
+    "question": "How does a client identify an extension grant type at the token endpoint?",
+    "expected_answer": "Use an absolute URI defined by the authorization server as grant_type and add required additional parameters.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 33,
+        "evidence": "The client uses an extension grant type by specifying the grant type\n   using an absolute URI (defined by the authorization server) as the\n   value of the \"grant_type\" parameter of the token endpoint, and by\n   adding any additional parameters necessary.",
+        "section": "4.5",
+        "chunk_id": "5f55ee4981ec244e8773f924b82119f1b0317758e9642a20b5fa8088247d4524",
+        "char_start": 55755,
+        "char_end_exclusive": 56009
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "New Day 7 question; not reused from Day 6 test"
+  },
+  {
+    "id": "d7-test-04",
+    "split": "test",
+    "answerable": true,
+    "question": "In an authorization-code response, when is state required and what value must it carry?",
+    "expected_answer": "When state was present in the client authorization request; return the exact received value.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 18,
+        "evidence": "state\n         REQUIRED if the \"state\" parameter was present in the client\n         authorization request.  The exact value received from the\n         client.",
+        "section": "4.1.2",
+        "chunk_id": "4287345277329c2f020feffc3b0275e4eedac66bcea272b79afd1684f1ca4135",
+        "char_start": 28526,
+        "char_end_exclusive": 28684
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "New Day 7 question; not reused from Day 6 test"
+  },
+  {
+    "id": "d7-test-05",
+    "split": "test",
+    "answerable": true,
+    "question": "Which authorization-code error means the client is not authorized to request a code using that method?",
+    "expected_answer": "unauthorized_client.",
+    "gold": [
+      {
+        "source_id": "rfc6749",
+        "page": 19,
+        "evidence": "unauthorized_client\n               The client is not authorized to request an authorization\n               code using this method.",
+        "section": "4.1.2.1",
+        "chunk_id": "6f70e9b066770ae504a3f22f0ba1a293425d2742ba7d550f3840a9442c82d4ac",
+        "char_start": 30205,
+        "char_end_exclusive": 30335
+      }
+    ],
+    "filter": null,
+    "expected_behavior": "search_and_answer",
+    "origin": "New Day 7 question; not reused from Day 6 test"
+  },
+  {
+    "id": "d7-test-abs-03",
+    "split": "test",
+    "answerable": false,
+    "question": "Which typ header value does this corpus mandate for a DPoP proof JWT?",
+    "gold": [],
+    "expected_behavior": "search_and_abstain",
+    "expected_answer": "The supplied corpus does not provide sufficient evidence to answer this question.",
+    "absence_reason": "No DPoP proof format or mandated typ value is specified in the selected text.",
+    "filter": null
+  },
+  {
+    "id": "d7-test-abs-04",
+    "split": "test",
+    "answerable": false,
+    "question": "What fixed maximum refresh-token lifetime in days does this corpus mandate for every client?",
+    "gold": [],
+    "expected_behavior": "search_and_abstain",
+    "expected_answer": "The supplied corpus does not provide sufficient evidence to answer this question.",
+    "absence_reason": "The source discusses refresh-token binding, replacement and invalid/expired tokens, but supplies no universal fixed maximum refresh-token lifetime in days. Do not substitute the code lifetime or access-token examples.",
+    "filter": null
+  }
+]

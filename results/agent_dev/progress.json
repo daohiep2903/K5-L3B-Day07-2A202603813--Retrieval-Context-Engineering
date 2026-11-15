@@ -1,0 +1,10 @@
+{
+  "completed": 85,
+  "expected": 85,
+  "config": "hybrid_top6_context_3000",
+  "query": "d7-dev-abs-02",
+  "status": "abstain",
+  "estimated_total_usd": 0.04797440000000002,
+  "test_executed": false,
+  "agent_answers_reviewed": false
+}

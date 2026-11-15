@@ -1,0 +1,14 @@
+{
+  "method": "Direct final-context review; student approved; see confirmation file for initial method.",
+  "n": 14,
+  "N": 15,
+  "rate": 0.9333333333333333,
+  "strict_full_quote_proxy": {
+    "n": 13,
+    "N": 15
+  },
+  "equivalent_evidence_case": "d7-dev-q09 uses C091 section 4.2",
+  "unsupported_scope_case": "d7-dev-q05 cites resource-owner-password instead of client-password scope",
+  "per_case_labels": "reviews.json",
+  "student_confirmation_file": "results/student_dev_review_confirmation.json"
+}

@@ -1,0 +1,35 @@
+{
+  "source_project": "K5-L3-Day06-2A202603813-DataIngestionEngineering",
+  "strategy": "B",
+  "chunk_count": 116,
+  "source_unit_count": 41,
+  "source_url": "https://www.rfc-editor.org/rfc/rfc6749.txt",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "dimensions": 384,
+  "vector_store": "qdrant",
+  "collection_to_reuse": "day6_B",
+  "input_chunks_sha256": "f3c333a8da9da793f7b949990d4a67fbc09941423c627122537d727629d8e43e",
+  "selected_source_sha256": "d0ce08ce059a3b7248cec4fe7184ed39e51095ef17d8a35e481a4f10326598be",
+  "output_chunks_sha256": "d55dee72135cf15126da1128cf80c6dbb127f43555870f5e026722f3efff53a6",
+  "copied_files": [
+    "data_tu_tim.txt",
+    "oauth2_sections_2_to_7.txt",
+    "corpus_units.jsonl",
+    "manifest.json",
+    "corpus_selection.json",
+    "RFC6749_NOTICES.txt",
+    "RIGHTS_REVIEW.md"
+  ],
+  "checks": [
+    "unique IDs",
+    "exact source offsets",
+    "unit containment",
+    "section heading",
+    "complete corpus units"
+  ],
+  "page_semantics": "Sequential source unit, not original RFC physical page",
+  "status": "Corpus imported and validated; vector connection and Day 7 benchmark not yet implemented",
+  "benchmark_imported": false,
+  "note": "Day 6 held-out questions were not imported. Prepare a separate Day 7 benchmark before tuning."
+}

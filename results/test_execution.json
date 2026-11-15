@@ -1,0 +1,15 @@
+{
+  "stage": "test_completed_after_dev_freeze",
+  "baseline": "dense_baseline",
+  "selected": "hybrid_top6_context_3000_formatted",
+  "cases_per_config": 7,
+  "trace_count": 14,
+  "runtime_hashes_verified": true,
+  "benchmark_unchanged": true,
+  "test_tuning": false,
+  "semantic_reviews_student_approved": true,
+  "source": "results/agent_test/summary.json",
+  "estimated_cost_usd": 0.008476000000000001,
+  "note": "results/dev_selection.json and agent_test/dev_selection_snapshot.json retain pre-test selection state as historical evidence.",
+  "student_confirmation_file": "results/student_test_review_confirmation.json"
+}

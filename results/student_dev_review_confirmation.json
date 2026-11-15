@@ -1,0 +1,18 @@
+{
+  "student_name": "Đào Văn Hiệp",
+  "student_id": "2A202603813",
+  "date": "2026-11-15",
+  "scope": "All 102 dev answer/citation/abstention reviews across the five original configurations and the additional formatted-citation configuration; context labels where present.",
+  "statement": "tôi duyệt hết",
+  "status": "student_approved_all_existing_dev_labels",
+  "test_labels_approved": false,
+  "method_note": "Initial labels were prepared with AI-assisted direct source review. Student approved them in conversation. No independent blind human evaluation is asserted.",
+  "label_fingerprints": {
+    "results/agent_dev/dense_baseline/reviews.json": "2df4287a14ee2740a9fb67001ca41d479e4de0d3cadf88c53b315743d723d1a8",
+    "results/agent_dev/dense_context_3000/reviews.json": "3e8dc7e3232bb6e3d6fc62062511252ff0be3551ed5fbbafaac40a86d4fc8df4",
+    "results/agent_dev/hybrid_baseline/reviews.json": "a321dc6f028a484384090895d1c2918123b6b4d83026444b94cf6d062207b621",
+    "results/agent_dev/hybrid_top6_context_3000/reviews.json": "761ec56aa6ed73bb90ca0d5d10b8b88504acea11ed82fad90b6d919dae55b1f8",
+    "results/agent_dev/lexical_baseline/reviews.json": "aa8af2779f70b6daad6ce49e2a1355e626e3493ce4797fc6c5962f1e3149d616",
+    "results/agent_dev_formatted/reviews.json": "a5b24f2b28f34aba1e3caee3e49f3e888d68dbd891f5b4326b646e0e6d774a18"
+  }
+}

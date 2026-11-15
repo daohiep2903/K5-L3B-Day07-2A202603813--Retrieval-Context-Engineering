@@ -1,0 +1,18 @@
+{
+  "benchmark_sha256": "8082cc62694b6960fa31e24f1c3cf4839c9c1162dd0c43958baa875db28e0dee",
+  "chunks_sha256": "d55dee72135cf15126da1128cf80c6dbb127f43555870f5e026722f3efff53a6",
+  "code_sha256": {
+    "src/dense.py": "fddc83f383477f9e603821fc8ba0bc8f9d292b684128f7b6b0cb5a0fb4969b91",
+    "src/retrieval.py": "ca97070f2d5b8c642c04a58d26aee1707acd24b2f0fce5398e7920c393cbed74",
+    "scripts/run_retrieval_dev.py": "7995c7fa09f2ba11131ff9e9ad681ac3634e376f68fff304f38ddd77be120d29",
+    "starter/baseline.py": "cf51d4f4dd5412270d73b51cb117eef5329695fc8fd8eb637de050b3d6488c36"
+  },
+  "trace_count": 85,
+  "split": "dev",
+  "store": "Qdrant local day7_dense",
+  "model": "all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "dimensions": 384,
+  "test_run": false,
+  "agent_run": false
+}

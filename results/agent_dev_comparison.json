@@ -1,0 +1,381 @@
+{
+  "review_status": "Student approved dev labels on 2026-11-15; method/history recorded in results/student_dev_review_confirmation.json",
+  "split": "dev",
+  "test_executed": false,
+  "trace_count": 102,
+  "configs": [
+    {
+      "config_id": "dense_baseline",
+      "review_status": "Student approved dev labels on 2026-11-15; method/history recorded in results/student_dev_review_confirmation.json",
+      "cases": 17,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "grounded_answer": {
+        "0": 14,
+        "1": 1,
+        "2": 0,
+        "N": 15,
+        "mean": 0.06666666666666667
+      },
+      "citation_validity": {
+        "n": 0,
+        "N": 2
+      },
+      "answer_citation_coverage": {
+        "n": 2,
+        "N": 2
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 13,
+        "N": 15
+      },
+      "original_query_hit1": {
+        "n": 7,
+        "N": 15
+      },
+      "original_query_hit3": {
+        "n": 11,
+        "N": 15
+      },
+      "agent_first_search_hit1": {
+        "n": 9,
+        "N": 15
+      },
+      "agent_first_search_hit3": {
+        "n": 12,
+        "N": 15
+      },
+      "final_context_evidence": {
+        "n": 5,
+        "N": 15
+      },
+      "model_calls": 40,
+      "retrieval_call_distribution": {
+        "1": 11,
+        "2": 6
+      },
+      "rewritten_first_queries": 17,
+      "estimated_cost_usd": 0.008587200000000001,
+      "median_seconds": 2.3646029000083217,
+      "source_trace_directory": "results/agent_dev/dense_baseline"
+    },
+    {
+      "config_id": "lexical_baseline",
+      "review_status": "Student approved dev labels on 2026-11-15; method/history recorded in results/student_dev_review_confirmation.json",
+      "cases": 17,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "grounded_answer": {
+        "0": 14,
+        "1": 1,
+        "2": 0,
+        "N": 15,
+        "mean": 0.06666666666666667
+      },
+      "citation_validity": {
+        "n": 0,
+        "N": 1
+      },
+      "answer_citation_coverage": {
+        "n": 1,
+        "N": 1
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 14,
+        "N": 15
+      },
+      "original_query_hit1": {
+        "n": 9,
+        "N": 15
+      },
+      "original_query_hit3": {
+        "n": 13,
+        "N": 15
+      },
+      "agent_first_search_hit1": {
+        "n": 8,
+        "N": 15
+      },
+      "agent_first_search_hit3": {
+        "n": 13,
+        "N": 15
+      },
+      "final_context_evidence": {
+        "n": 6,
+        "N": 15
+      },
+      "model_calls": 41,
+      "retrieval_call_distribution": {
+        "1": 10,
+        "2": 7
+      },
+      "rewritten_first_queries": 17,
+      "estimated_cost_usd": 0.0089948,
+      "median_seconds": 2.5011307999957353,
+      "source_trace_directory": "results/agent_dev/lexical_baseline"
+    },
+    {
+      "config_id": "hybrid_baseline",
+      "review_status": "Student approved dev labels on 2026-11-15; method/history recorded in results/student_dev_review_confirmation.json",
+      "cases": 17,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "grounded_answer": {
+        "0": 15,
+        "1": 0,
+        "2": 0,
+        "N": 15,
+        "mean": 0.0
+      },
+      "citation_validity": {
+        "n": 0,
+        "N": 1
+      },
+      "answer_citation_coverage": {
+        "n": 1,
+        "N": 1
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 14,
+        "N": 15
+      },
+      "original_query_hit1": {
+        "n": 10,
+        "N": 15
+      },
+      "original_query_hit3": {
+        "n": 14,
+        "N": 15
+      },
+      "agent_first_search_hit1": {
+        "n": 10,
+        "N": 15
+      },
+      "agent_first_search_hit3": {
+        "n": 13,
+        "N": 15
+      },
+      "final_context_evidence": {
+        "n": 6,
+        "N": 15
+      },
+      "model_calls": 40,
+      "retrieval_call_distribution": {
+        "1": 11,
+        "2": 6
+      },
+      "rewritten_first_queries": 17,
+      "estimated_cost_usd": 0.0088556,
+      "median_seconds": 2.281561199997668,
+      "source_trace_directory": "results/agent_dev/hybrid_baseline"
+    },
+    {
+      "config_id": "dense_context_3000",
+      "review_status": "Student approved dev labels on 2026-11-15; method/history recorded in results/student_dev_review_confirmation.json",
+      "cases": 17,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "grounded_answer": {
+        "0": 14,
+        "1": 0,
+        "2": 1,
+        "N": 15,
+        "mean": 0.13333333333333333
+      },
+      "citation_validity": {
+        "n": 2,
+        "N": 2
+      },
+      "answer_citation_coverage": {
+        "n": 1,
+        "N": 1
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 14,
+        "N": 15
+      },
+      "original_query_hit1": {
+        "n": 7,
+        "N": 15
+      },
+      "original_query_hit3": {
+        "n": 11,
+        "N": 15
+      },
+      "agent_first_search_hit1": {
+        "n": 9,
+        "N": 15
+      },
+      "agent_first_search_hit3": {
+        "n": 12,
+        "N": 15
+      },
+      "final_context_evidence": {
+        "n": 12,
+        "N": 15
+      },
+      "model_calls": 34,
+      "retrieval_call_distribution": {
+        "1": 17
+      },
+      "rewritten_first_queries": 17,
+      "estimated_cost_usd": 0.010200800000000001,
+      "median_seconds": 2.093413299997337,
+      "source_trace_directory": "results/agent_dev/dense_context_3000"
+    },
+    {
+      "config_id": "hybrid_top6_context_3000",
+      "review_status": "Student approved dev labels on 2026-11-15; method/history recorded in results/student_dev_review_confirmation.json",
+      "cases": 17,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "grounded_answer": {
+        "0": 11,
+        "1": 1,
+        "2": 3,
+        "N": 15,
+        "mean": 0.4666666666666667
+      },
+      "citation_validity": {
+        "n": 4,
+        "N": 4
+      },
+      "answer_citation_coverage": {
+        "n": 4,
+        "N": 4
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 11,
+        "N": 15
+      },
+      "original_query_hit1": {
+        "n": 10,
+        "N": 15
+      },
+      "original_query_hit3": {
+        "n": 14,
+        "N": 15
+      },
+      "agent_first_search_hit1": {
+        "n": 10,
+        "N": 15
+      },
+      "agent_first_search_hit3": {
+        "n": 13,
+        "N": 15
+      },
+      "final_context_evidence": {
+        "n": 13,
+        "N": 15
+      },
+      "model_calls": 34,
+      "retrieval_call_distribution": {
+        "1": 17
+      },
+      "rewritten_first_queries": 17,
+      "estimated_cost_usd": 0.011336,
+      "median_seconds": 2.081668400001945,
+      "source_trace_directory": "results/agent_dev/hybrid_top6_context_3000"
+    },
+    {
+      "config_id": "hybrid_top6_context_3000_formatted",
+      "review_status": "Student approved dev labels on 2026-11-15; method/history recorded in results/student_dev_review_confirmation.json",
+      "cases": 17,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "grounded_answer": {
+        "0": 1,
+        "1": 2,
+        "2": 12,
+        "N": 15,
+        "mean": 1.7333333333333334
+      },
+      "citation_validity": {
+        "n": 15,
+        "N": 17
+      },
+      "answer_citation_coverage": {
+        "n": 15,
+        "N": 15
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15
+      },
+      "original_query_hit1": {
+        "n": 10,
+        "N": 15
+      },
+      "original_query_hit3": {
+        "n": 14,
+        "N": 15
+      },
+      "agent_first_search_hit1": {
+        "n": 10,
+        "N": 15
+      },
+      "agent_first_search_hit3": {
+        "n": 13,
+        "N": 15
+      },
+      "final_context_evidence": {
+        "n": 13,
+        "N": 15
+      },
+      "model_calls": 34,
+      "retrieval_call_distribution": {
+        "1": 17
+      },
+      "rewritten_first_queries": 17,
+      "estimated_cost_usd": 0.0114084,
+      "median_seconds": 2.12442039999587,
+      "source_trace_directory": "results/agent_dev_formatted"
+    }
+  ],
+  "estimated_total_usd": 0.059382800000000006,
+  "cost_note": "Standard rates checked 2026-11-14; excludes cache discounts and local compute; not invoice.",
+  "semantic_citation_policy": "Each reference is inspected for the claim it supports. A supported reference does not imply every additional claim in the answer is grounded; answer grade also penalizes unsupported additions.",
+  "student_confirmation_file": "results/student_dev_review_confirmation.json"
+}

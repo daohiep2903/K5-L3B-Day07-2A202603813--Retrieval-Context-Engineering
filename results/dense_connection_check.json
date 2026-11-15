@@ -1,0 +1,160 @@
+{
+  "kind": "connection_smoke_check_not_benchmark",
+  "completed_at_utc": "2026-11-14T10:07:47.469027+00:00",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "dimensions": 384,
+  "source_collection": "day6_B",
+  "target_collection": "day7_dense",
+  "count": 116,
+  "vectors_reused_without_reembedding": true,
+  "max_vector_copy_delta": 1.7070197005919496e-08,
+  "vector_copy_tolerance": 1e-06,
+  "model_files_hash_verified": true,
+  "reopen_count_verified": true,
+  "query": "How does the client obtain an access token?",
+  "hits": [
+    {
+      "id": "3462d461f8e5ae283fa46a83f930e5dd98fbd80ccbab9190aabb36227ccbed69",
+      "source_id": "rfc6749",
+      "source": "data/oauth2_sections_2_to_7.txt",
+      "page": 29,
+      "text": "(B)  The client requests an access token from the authorization\n        server's token endpoint by including the credentials received\n        from the resource owner.  When making the request, the client\n        authenticates with the authorization server.",
+      "score": 0.7745094773835073,
+      "metadata": {
+        "sections": [
+          "4.3"
+        ],
+        "top_level_sections": [
+          "4"
+        ],
+        "language": "en",
+        "char_start": 49447,
+        "top_level_section": "4",
+        "char_end_exclusive": 49703
+      }
+    },
+    {
+      "id": "6583d07fa9b3b2d8bcf22c5b673189865d606b6c7b43b01f2e5337bd3fa511e4",
+      "source_id": "rfc6749",
+      "source": "data/oauth2_sections_2_to_7.txt",
+      "page": 40,
+      "text": "The method in which the client utilizes the access token to\n   authenticate with the resource server depends on the type of access\n   token issued by the authorization server.  Typically, it involves\n   using the HTTP \"Authorization\" request header field [RFC2617] with an\n   authentication scheme defined by the specification of the access\n   token type used, such as [RFC6750].",
+      "score": 0.7563123301245275,
+      "metadata": {
+        "sections": [
+          "7",
+          "7.1"
+        ],
+        "top_level_sections": [
+          "7"
+        ],
+        "language": "en",
+        "char_start": 66722,
+        "top_level_section": "7",
+        "char_end_exclusive": 67101
+      }
+    },
+    {
+      "id": "5c7010625d80ab296c3c939f3a3926b89fbc8f42dee53e52a29ac5bd25ae4fe4",
+      "source_id": "rfc6749",
+      "source": "data/oauth2_sections_2_to_7.txt",
+      "page": 31,
+      "text": "4.4.  Client Credentials Grant\n\n   The client can request an access token using only its client\n   credentials (or other supported means of authentication) when the\n   client is requesting access to the protected resources under its\n   control, or those of another resource owner that have been previously\n   arranged with the authorization server (the method of which is beyond\n   the scope of this specification).",
+      "score": 0.7246257139420283,
+      "metadata": {
+        "sections": [
+          "4.3.2",
+          "4.3.3",
+          "4.4"
+        ],
+        "top_level_sections": [
+          "4"
+        ],
+        "language": "en",
+        "char_start": 52601,
+        "top_level_section": "4",
+        "char_end_exclusive": 53016
+      }
+    }
+  ],
+  "filter_check": {
+    "query": "refresh token",
+    "filter": {
+      "top_level_section": "6"
+    },
+    "hits": [
+      {
+        "id": "5bff818d7bddbfe3d8b41f9d6425779b163bfc569e8b998f2fbd2065ec5ea9dd",
+        "source_id": "rfc6749",
+        "source": "data/oauth2_sections_2_to_7.txt",
+        "page": 38,
+        "text": "Because refresh tokens are typically long-lasting credentials used to\n   request additional access tokens, the refresh token is bound to the\n   client to which it was issued.  If the client type is confidential or\n   the client was issued client credentials (or assigned other\n   authentication requirements), the client MUST authenticate with the\n   authorization server as described in Section 3.2.1.\n\n   For example, the client makes the following HTTP request using\n   transport-layer security (with extra line breaks for display purposes\n   only):",
+        "score": 0.6768607973127952,
+        "metadata": {
+          "sections": [
+            "5.2",
+            "6"
+          ],
+          "top_level_sections": [
+            "5",
+            "6"
+          ],
+          "language": "en",
+          "char_start": 64303,
+          "top_level_section": "6",
+          "char_end_exclusive": 64855
+        }
+      },
+      {
+        "id": "d2aab04ada7bba4cab02f124d2d2495327b33d16b06aabb2ff2ec6993aef666c",
+        "source_id": "rfc6749",
+        "source": "data/oauth2_sections_2_to_7.txt",
+        "page": 39,
+        "text": "The authorization server MAY issue a new refresh token, in which case\n   the client MUST discard the old refresh token and replace it with the\n   new refresh token.  The authorization server MAY revoke the old\n   refresh token after issuing a new refresh token to the client.  If a\n   new refresh token is issued, the refresh token scope MUST be\n   identical to that of the refresh token included by the client in the\n   request.",
+        "score": 0.6428016459146915,
+        "metadata": {
+          "sections": [
+            "6",
+            "7"
+          ],
+          "top_level_sections": [
+            "6",
+            "7"
+          ],
+          "language": "en",
+          "char_start": 65739,
+          "top_level_section": "6",
+          "char_end_exclusive": 66168
+        }
+      },
+      {
+        "id": "505111b99bbcf46ef86f8045ec002152cba54a3be1b066da1d1e830243fd905c",
+        "source_id": "rfc6749",
+        "source": "data/oauth2_sections_2_to_7.txt",
+        "page": 38,
+        "text": "6.  Refreshing an Access Token\n\n   If the authorization server issued a refresh token to the client, the\n   client makes a refresh request to the token endpoint by adding the\n   following parameters using the \"application/x-www-form-urlencoded\"\n   format per Appendix B with a character encoding of UTF-8 in the HTTP\n   request entity-body:\n\n   grant_type\n         REQUIRED.  Value MUST be set to \"refresh_token\".\n\n   refresh_token\n         REQUIRED.  The refresh token issued to the client.\n\n   scope\n         OPTIONAL.  The scope of the access request as described by\n         Section 3.3.  The requested scope MUST NOT include any scope\n         not originally granted by the resource owner, and if omitted is\n         treated as equal to the scope originally granted by the\n         resource owner.",
+        "score": 0.6089441874798663,
+        "metadata": {
+          "sections": [
+            "5.2",
+            "6"
+          ],
+          "top_level_sections": [
+            "5",
+            "6"
+          ],
+          "language": "en",
+          "char_start": 63496,
+          "top_level_section": "6",
+          "char_end_exclusive": 64298
+        }
+      }
+    ]
+  },
+  "search_seconds_total": 0.17913229999976465,
+  "service_cost_usd": 0,
+  "model_path": "C:\\Users\\Admin\\Desktop\\DaoVAnHiep\\VinUni-Codelab-Day06\\K5-L3-Day06-2A202603813-DataIngestionEngineering\\local_models\\all-MiniLM-L6-v2",
+  "store_path": "local_vectors",
+  "note": "No gold/test labels used. These queries are connection checks and must not later be treated as unseen benchmark test questions."
+}

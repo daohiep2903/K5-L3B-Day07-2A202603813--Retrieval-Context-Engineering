@@ -1,0 +1,20 @@
+{
+  "question_count": 24,
+  "dev": {
+    "answerable": 15,
+    "unanswerable": 2
+  },
+  "test": {
+    "answerable": 5,
+    "unanswerable": 2
+  },
+  "benchmark_sha256": "8082cc62694b6960fa31e24f1c3cf4839c9c1162dd0c43958baa875db28e0dee",
+  "source_sha256": "d0ce08ce059a3b7248cec4fe7184ed39e51095ef17d8a35e481a4f10326598be",
+  "exact_evidence_verified": true,
+  "chunk_containment_verified": true,
+  "filter_scope_verified": true,
+  "queries_run_against_benchmark": false,
+  "agent_run": false,
+  "gold_review": "AI-assisted; student review pending",
+  "caveat": "New test questions have not been retrieved or tuned against, but share a document with known Day 6 topics and are visible to the dataset author. Not blind external validation."
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "d7-dev-q01",
+    "split": "dev",
+    "answerable": true,
+    "question": "Is a client identifier secret, and can it authenticate a client alone?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q02",
+    "split": "dev",
+    "answerable": true,
+    "question": "How many authentication methods may a client use in one request?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q03",
+    "split": "dev",
+    "answerable": true,
+    "question": "According to section 2, which authentication scheme must the server support for clients issued a client password?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q04",
+    "split": "dev",
+    "answerable": true,
+    "question": "Where may client credentials supplied as body parameters be transmitted?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q05",
+    "split": "dev",
+    "answerable": true,
+    "question": "What attack must endpoints using password client authentication protect against?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q06",
+    "split": "dev",
+    "answerable": true,
+    "question": "According to section 3, may the authorization endpoint URI contain a fragment?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q07",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which HTTP method must clients use for access token requests?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q08",
+    "split": "dev",
+    "answerable": true,
+    "question": "What maximum authorization code lifetime is recommended?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q09",
+    "split": "dev",
+    "answerable": true,
+    "question": "May the authorization server issue a refresh token in the implicit grant?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q10",
+    "split": "dev",
+    "answerable": true,
+    "question": "When must a client discard resource owner credentials in the password credentials grant?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q11",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which client type is permitted to use the client credentials grant?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q12",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which cache-control headers are required in responses containing tokens or credentials?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q13",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which token error covers an expired or revoked authorization grant or refresh token?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q14",
+    "split": "dev",
+    "answerable": true,
+    "question": "What must a client do when the authorization server issues a replacement refresh token?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-q15",
+    "split": "dev",
+    "answerable": true,
+    "question": "May a client use an access token whose token type it does not understand?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-test-01",
+    "split": "test",
+    "answerable": true,
+    "question": "According to section 3, what must the server include when the granted access-token scope differs from the requested scope?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-test-02",
+    "split": "test",
+    "answerable": true,
+    "question": "According to section 3, what should happen when an authorization request has a missing, invalid, or mismatching redirect URI?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-test-03",
+    "split": "test",
+    "answerable": true,
+    "question": "How does a client identify an extension grant type at the token endpoint?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-test-04",
+    "split": "test",
+    "answerable": true,
+    "question": "In an authorization-code response, when is state required and what value must it carry?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-test-05",
+    "split": "test",
+    "answerable": true,
+    "question": "Which authorization-code error means the client is not authorized to request a code using that method?",
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d7-dev-abs-01",
+    "split": "dev",
+    "answerable": false,
+    "question": "Which exact code_verifier length does this corpus require for the PKCE S256 flow?",
+    "expected_behavior": "search_and_abstain"
+  },
+  {
+    "id": "d7-dev-abs-02",
+    "split": "dev",
+    "answerable": false,
+    "question": "Which JWT signing algorithm does this corpus require for access tokens?",
+    "expected_behavior": "search_and_abstain"
+  },
+  {
+    "id": "d7-test-abs-03",
+    "split": "test",
+    "answerable": false,
+    "question": "Which typ header value does this corpus mandate for a DPoP proof JWT?",
+    "expected_behavior": "search_and_abstain"
+  },
+  {
+    "id": "d7-test-abs-04",
+    "split": "test",
+    "answerable": false,
+    "question": "What fixed maximum refresh-token lifetime in days does this corpus mandate for every client?",
+    "expected_behavior": "search_and_abstain"
+  }
+]

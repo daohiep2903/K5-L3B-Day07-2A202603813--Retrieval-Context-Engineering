@@ -1,0 +1,46 @@
+{
+  "stage": "retrieval_dev_only_not_agent_selection",
+  "configs": [
+    {
+      "id": "dense_baseline",
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "hypothesis": "Dense baseline with starter context budget."
+    },
+    {
+      "id": "lexical_baseline",
+      "method": "lexical",
+      "top_k": 3,
+      "budget_chars": 800,
+      "hypothesis": "Exact protocol names may favor lexical matching."
+    },
+    {
+      "id": "hybrid_baseline",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget_chars": 800,
+      "hypothesis": "RRF can combine semantic and exact-term rankings."
+    },
+    {
+      "id": "dense_context_3000",
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "hypothesis": "Larger context may retain complete retrieved evidence; only budget changes from dense baseline."
+    },
+    {
+      "id": "hybrid_top6_context_3000",
+      "method": "hybrid",
+      "top_k": 6,
+      "budget_chars": 3000,
+      "hypothesis": "More candidates and a larger context may improve coverage. Two factors change together; not a causal isolation."
+    }
+  ],
+  "rrf_k": 60,
+  "rrf_candidate_depth": 10,
+  "query_policy": "Original question, no rewriting; explicit question filters shared across methods",
+  "shortlist_rule": "Context Evidence Rate, then Hit@3, then Hit@1, then fewer context characters, then name. Agent answer quality/cost still required before final test selection.",
+  "context_policy": "Whole chunks in rank order, deduplicated, skip chunks that do not fit character budget including citation headers",
+  "test_execution": false
+}

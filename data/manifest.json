@@ -1,0 +1,321 @@
+{
+  "source_id": "rfc6749",
+  "title": "The OAuth 2.0 Authorization Framework",
+  "source_path_or_url": "data/data_tu_tim.txt",
+  "source_url_stated_in_document": "http://www.rfc-editor.org/info/rfc6749",
+  "license_or_permission": "IETF Trust Legal Provisions 4.0 (effective 2009-12-28), sections 3.c.iii and 3.d: attributed unmodified excerpts with original notices; not a blanket modification license. See data/RIGHTS_REVIEW.md and data/RFC6749_NOTICES.txt.",
+  "accessed_at": "2026-11-13",
+  "access_note": "Local supplied copy inspected; no online source verification.",
+  "selected_sections": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+  ],
+  "selected_source_sha256": "d0ce08ce059a3b7248cec4fe7184ed39e51095ef17d8a35e481a4f10326598be",
+  "unit_count": 41,
+  "physical_page_count": null,
+  "counting_rule": "Sequential non-overlapping units, >=1500 stripped Unicode characters each; end at paragraph boundaries; merge final short remainder. Not physical RFC pages.",
+  "offset_convention": "Zero-based Python Unicode offsets, end exclusive, into selected source read as UTF-8 with universal newlines.",
+  "units": [
+    {
+      "unit_id": "rfc6749-unit-001",
+      "page": 1,
+      "char_start": 0,
+      "char_end_exclusive": 1691,
+      "normalized_characters": 1689
+    },
+    {
+      "unit_id": "rfc6749-unit-002",
+      "page": 2,
+      "char_start": 1691,
+      "char_end_exclusive": 3220,
+      "normalized_characters": 1524
+    },
+    {
+      "unit_id": "rfc6749-unit-003",
+      "page": 3,
+      "char_start": 3220,
+      "char_end_exclusive": 4856,
+      "normalized_characters": 1631
+    },
+    {
+      "unit_id": "rfc6749-unit-004",
+      "page": 4,
+      "char_start": 4856,
+      "char_end_exclusive": 6526,
+      "normalized_characters": 1665
+    },
+    {
+      "unit_id": "rfc6749-unit-005",
+      "page": 5,
+      "char_start": 6526,
+      "char_end_exclusive": 8169,
+      "normalized_characters": 1638
+    },
+    {
+      "unit_id": "rfc6749-unit-006",
+      "page": 6,
+      "char_start": 8169,
+      "char_end_exclusive": 9925,
+      "normalized_characters": 1754
+    },
+    {
+      "unit_id": "rfc6749-unit-007",
+      "page": 7,
+      "char_start": 9925,
+      "char_end_exclusive": 11683,
+      "normalized_characters": 1753
+    },
+    {
+      "unit_id": "rfc6749-unit-008",
+      "page": 8,
+      "char_start": 11683,
+      "char_end_exclusive": 13639,
+      "normalized_characters": 1951
+    },
+    {
+      "unit_id": "rfc6749-unit-009",
+      "page": 9,
+      "char_start": 13639,
+      "char_end_exclusive": 15146,
+      "normalized_characters": 1502
+    },
+    {
+      "unit_id": "rfc6749-unit-010",
+      "page": 10,
+      "char_start": 15146,
+      "char_end_exclusive": 17140,
+      "normalized_characters": 1992
+    },
+    {
+      "unit_id": "rfc6749-unit-011",
+      "page": 11,
+      "char_start": 17140,
+      "char_end_exclusive": 18765,
+      "normalized_characters": 1623
+    },
+    {
+      "unit_id": "rfc6749-unit-012",
+      "page": 12,
+      "char_start": 18765,
+      "char_end_exclusive": 20470,
+      "normalized_characters": 1700
+    },
+    {
+      "unit_id": "rfc6749-unit-013",
+      "page": 13,
+      "char_start": 20470,
+      "char_end_exclusive": 22075,
+      "normalized_characters": 1600
+    },
+    {
+      "unit_id": "rfc6749-unit-014",
+      "page": 14,
+      "char_start": 22075,
+      "char_end_exclusive": 23718,
+      "normalized_characters": 1641
+    },
+    {
+      "unit_id": "rfc6749-unit-015",
+      "page": 15,
+      "char_start": 23718,
+      "char_end_exclusive": 25234,
+      "normalized_characters": 1511
+    },
+    {
+      "unit_id": "rfc6749-unit-016",
+      "page": 16,
+      "char_start": 25234,
+      "char_end_exclusive": 26801,
+      "normalized_characters": 1562
+    },
+    {
+      "unit_id": "rfc6749-unit-017",
+      "page": 17,
+      "char_start": 26801,
+      "char_end_exclusive": 28523,
+      "normalized_characters": 1716
+    },
+    {
+      "unit_id": "rfc6749-unit-018",
+      "page": 18,
+      "char_start": 28523,
+      "char_end_exclusive": 30196,
+      "normalized_characters": 1668
+    },
+    {
+      "unit_id": "rfc6749-unit-019",
+      "page": 19,
+      "char_start": 30196,
+      "char_end_exclusive": 31890,
+      "normalized_characters": 1683
+    },
+    {
+      "unit_id": "rfc6749-unit-020",
+      "page": 20,
+      "char_start": 31890,
+      "char_end_exclusive": 33430,
+      "normalized_characters": 1535
+    },
+    {
+      "unit_id": "rfc6749-unit-021",
+      "page": 21,
+      "char_start": 33430,
+      "char_end_exclusive": 35197,
+      "normalized_characters": 1762
+    },
+    {
+      "unit_id": "rfc6749-unit-022",
+      "page": 22,
+      "char_start": 35197,
+      "char_end_exclusive": 37914,
+      "normalized_characters": 2712
+    },
+    {
+      "unit_id": "rfc6749-unit-023",
+      "page": 23,
+      "char_start": 37914,
+      "char_end_exclusive": 39518,
+      "normalized_characters": 1599
+    },
+    {
+      "unit_id": "rfc6749-unit-024",
+      "page": 24,
+      "char_start": 39518,
+      "char_end_exclusive": 41128,
+      "normalized_characters": 1605
+    },
+    {
+      "unit_id": "rfc6749-unit-025",
+      "page": 25,
+      "char_start": 41128,
+      "char_end_exclusive": 42956,
+      "normalized_characters": 1822
+    },
+    {
+      "unit_id": "rfc6749-unit-026",
+      "page": 26,
+      "char_start": 42956,
+      "char_end_exclusive": 44676,
+      "normalized_characters": 1715
+    },
+    {
+      "unit_id": "rfc6749-unit-027",
+      "page": 27,
+      "char_start": 44676,
+      "char_end_exclusive": 46548,
+      "normalized_characters": 1867
+    },
+    {
+      "unit_id": "rfc6749-unit-028",
+      "page": 28,
+      "char_start": 46548,
+      "char_end_exclusive": 48192,
+      "normalized_characters": 1633
+    },
+    {
+      "unit_id": "rfc6749-unit-029",
+      "page": 29,
+      "char_start": 48192,
+      "char_end_exclusive": 49705,
+      "normalized_characters": 1508
+    },
+    {
+      "unit_id": "rfc6749-unit-030",
+      "page": 30,
+      "char_start": 49705,
+      "char_end_exclusive": 51218,
+      "normalized_characters": 1508
+    },
+    {
+      "unit_id": "rfc6749-unit-031",
+      "page": 31,
+      "char_start": 51218,
+      "char_end_exclusive": 53018,
+      "normalized_characters": 1793
+    },
+    {
+      "unit_id": "rfc6749-unit-032",
+      "page": 32,
+      "char_start": 53018,
+      "char_end_exclusive": 54541,
+      "normalized_characters": 1518
+    },
+    {
+      "unit_id": "rfc6749-unit-033",
+      "page": 33,
+      "char_start": 54541,
+      "char_end_exclusive": 56279,
+      "normalized_characters": 1733
+    },
+    {
+      "unit_id": "rfc6749-unit-034",
+      "page": 34,
+      "char_start": 56279,
+      "char_end_exclusive": 58072,
+      "normalized_characters": 1786
+    },
+    {
+      "unit_id": "rfc6749-unit-035",
+      "page": 35,
+      "char_start": 58072,
+      "char_end_exclusive": 59864,
+      "normalized_characters": 1787
+    },
+    {
+      "unit_id": "rfc6749-unit-036",
+      "page": 36,
+      "char_start": 59864,
+      "char_end_exclusive": 61564,
+      "normalized_characters": 1698
+    },
+    {
+      "unit_id": "rfc6749-unit-037",
+      "page": 37,
+      "char_start": 61564,
+      "char_end_exclusive": 63299,
+      "normalized_characters": 1724
+    },
+    {
+      "unit_id": "rfc6749-unit-038",
+      "page": 38,
+      "char_start": 63299,
+      "char_end_exclusive": 64857,
+      "normalized_characters": 1553
+    },
+    {
+      "unit_id": "rfc6749-unit-039",
+      "page": 39,
+      "char_start": 64857,
+      "char_end_exclusive": 66719,
+      "normalized_characters": 1855
+    },
+    {
+      "unit_id": "rfc6749-unit-040",
+      "page": 40,
+      "char_start": 66719,
+      "char_end_exclusive": 68250,
+      "normalized_characters": 1526
+    },
+    {
+      "unit_id": "rfc6749-unit-041",
+      "page": 41,
+      "char_start": 68250,
+      "char_end_exclusive": 69759,
+      "normalized_characters": 1505
+    }
+  ],
+  "rights_reviewed_at": "2026-11-13",
+  "rights_sources": [
+    "https://www.rfc-editor.org/rfc/rfc6749.html",
+    "https://trustee.ietf.org/documents/trust-legal-provisions/",
+    "https://trustee.ietf.org/wp-content/uploads/IETF-TLP-4.pdf"
+  ],
+  "redistribution_notice_files": [
+    "data/RFC6749_NOTICES.txt",
+    "results/RFC6749_NOTICES.txt"
+  ]
+}

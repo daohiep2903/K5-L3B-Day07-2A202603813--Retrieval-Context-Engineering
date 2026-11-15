@@ -1,0 +1,75 @@
+[
+  {
+    "query_id": "d7-test-01",
+    "config_id": "dense_baseline",
+    "reviewer": "Source-based review; student confirmation pending",
+    "reviewed_at": "2026-11-15",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Answerable question was delivered as an abstention; rubric assigns 0, even when evidence/raw answer existed before output checks.",
+    "context_grade": 1,
+    "context_reason": "C002 mentions actual scope and response parameter, but the conditional MUST rule for scope changes is absent."
+  },
+  {
+    "query_id": "d7-test-02",
+    "config_id": "dense_baseline",
+    "reviewer": "Source-based review; student confirmation pending",
+    "reviewed_at": "2026-11-15",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Answerable question was delivered as an abstention; rubric assigns 0, even when evidence/raw answer existed before output checks.",
+    "context_grade": 2,
+    "context_reason": "C028 contains the complete redirect-error rule and source."
+  },
+  {
+    "query_id": "d7-test-03",
+    "config_id": "dense_baseline",
+    "reviewer": "Source-based review; student confirmation pending",
+    "reviewed_at": "2026-11-15",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Answerable question was delivered as an abstention; rubric assigns 0, even when evidence/raw answer existed before output checks.",
+    "context_grade": 2,
+    "context_reason": "C055 contains the absolute-URI grant_type rule and additional-parameter condition."
+  },
+  {
+    "query_id": "d7-test-04",
+    "config_id": "dense_baseline",
+    "reviewer": "Source-based review; student confirmation pending",
+    "reviewed_at": "2026-11-15",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Answerable question was delivered as an abstention; rubric assigns 0, even when evidence/raw answer existed before output checks.",
+    "context_grade": 2,
+    "context_reason": "C035 contains required-if-present and exact echo-value rule with code redirect example."
+  },
+  {
+    "query_id": "d7-test-05",
+    "config_id": "dense_baseline",
+    "reviewer": "Source-based review; student confirmation pending",
+    "reviewed_at": "2026-11-15",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Answerable question was delivered as an abstention; rubric assigns 0, even when evidence/raw answer existed before output checks.",
+    "context_grade": 0,
+    "context_reason": "Context contains client-credentials authentication, not the authorization-code error definition."
+  },
+  {
+    "query_id": "d7-test-abs-03",
+    "config_id": "dense_baseline",
+    "reviewer": "Source-based review; student confirmation pending",
+    "reviewed_at": "2026-11-15",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Actual output explicitly refuses without unsupported claims; selected source has no DPoP typ requirement or universal fixed refresh-token lifetime in days."
+  },
+  {
+    "query_id": "d7-test-abs-04",
+    "config_id": "dense_baseline",
+    "reviewer": "Source-based review; student confirmation pending",
+    "reviewed_at": "2026-11-15",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Actual output explicitly refuses without unsupported claims; selected source has no DPoP typ requirement or universal fixed refresh-token lifetime in days."
+  }
+]

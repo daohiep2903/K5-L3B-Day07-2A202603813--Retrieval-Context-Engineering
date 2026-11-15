@@ -1,0 +1,33 @@
+{
+  "stage": "agent_dev_only",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "configs": [
+    {
+      "id": "hybrid_top6_context_3000_formatted",
+      "method": "hybrid",
+      "top_k": 6,
+      "budget_chars": 3000,
+      "hypothesis": "Render model-declared context-valid citation IDs; keep hybrid top-6/budget3000 unchanged."
+    }
+  ],
+  "max_searches": 2,
+  "benchmark_sha256": "8082cc62694b6960fa31e24f1c3cf4839c9c1162dd0c43958baa875db28e0dee",
+  "chunks_sha256": "d55dee72135cf15126da1128cf80c6dbb127f43555870f5e026722f3efff53a6",
+  "code_sha256": {
+    "src/formatted_controller.py": "2a850aad5270b096bfd853ffc21efa60a9df2a5a00cbdb32ec6eb4da269b0979",
+    "src/openai_controller.py": "0615de5874ead7edb73107ba12505fabfbe0e2eb3b4aa55858bc05159bbb3ab0",
+    "src/citation_aliases.py": "4aeca070a98135f965f96b6de01df4001a54a6058e9452b3d94cac96e3f5b97e",
+    "src/retrieval.py": "ca97070f2d5b8c642c04a58d26aee1707acd24b2f0fce5398e7920c393cbed74",
+    "src/dense.py": "fddc83f383477f9e603821fc8ba0bc8f9d292b684128f7b6b0cb5a0fb4969b91",
+    "starter/agentic.py": "580cc573008f2d0e3cc6fd785d40029934648e6e5e333cdbe86f7f7db40e26a6",
+    "starter/baseline.py": "cf51d4f4dd5412270d73b51cb117eef5329695fc8fd8eb637de050b3d6488c36",
+    "scripts/run_agent_dev_formatted.py": "001cd68186e769355b50130df6313f462b520f4cef2acb526185d5a3565a0bd9"
+  },
+  "input_rate_usd_per_million": 0.4,
+  "output_rate_usd_per_million": 1.6,
+  "rate_note": "Standard model rates checked 2026-11-14; estimate without cache discounts, not billing invoice.",
+  "selection_rule": "AI-assisted reviewed answer-grade mean, then correct abstention count, supported citation rate, prepared final-context evidence rate, then lower estimated cost, then name. Student validation remains necessary.",
+  "test_executed": false,
+  "gold_sent_to_model": false,
+  "citation_policy": "Stable C001 aliases; deterministic rendering of model-declared IDs only after checking context membership. Raw model response preserved."
+}

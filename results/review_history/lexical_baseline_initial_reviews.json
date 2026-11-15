@@ -1,0 +1,157 @@
+[
+  {
+    "query_id": "d7-dev-q01",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: invalid_or_missing_citations. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q02",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: search_limit. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q03",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: invalid_or_missing_citations. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q04",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: invalid_or_missing_citations. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q05",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: invalid_or_missing_citations. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q06",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: search_limit. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q07",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: invalid_or_missing_citations. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q08",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: invalid_or_missing_citations. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q09",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: invalid_or_missing_citations. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q10",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: invalid_or_missing_citations. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q11",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: search_limit. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q12",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: invalid_or_missing_citations. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q13",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: invalid_or_missing_citations. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q14",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 0,
+    "reason": "Answerable question was refused; rubric assigns 0. Final controller event: invalid_or_missing_citations. Even when raw model text contains the right answer, the delivered output is an abstention."
+  },
+  {
+    "query_id": "d7-dev-q15",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "reviewed_at": "2026-11-15",
+    "answer_grade": 1,
+    "reason": "Concludes should not use an unknown token type but weakens the explicit MUST NOT rule and infers the prohibition from C062 rather than citing the direct rule."
+  },
+  {
+    "query_id": "d7-dev-abs-01",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "abstention_correct": true,
+    "reason": "Selected corpus does not supply requested PKCE/JWT requirement; delivered output explicitly refuses without additional unsupported claims."
+  },
+  {
+    "query_id": "d7-dev-abs-02",
+    "config_id": "lexical_baseline",
+    "reviewer": "AI-assisted direct source review; student confirmation pending",
+    "citation_support": [],
+    "reviewed_at": "2026-11-15",
+    "abstention_correct": true,
+    "reason": "Selected corpus does not supply requested PKCE/JWT requirement; delivered output explicitly refuses without additional unsupported claims."
+  }
+]

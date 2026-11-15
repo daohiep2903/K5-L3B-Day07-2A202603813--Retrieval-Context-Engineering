@@ -1,0 +1,9 @@
+config_id,split,method,top_k,context_chars,max_searches,citation_formatter,hypothesis,original_hit1,original_hit3,context_quote_rate,answer_mean,supported_citations,estimated_cost_usd,median_agent_seconds
+dense_baseline,dev,dense,3,800,2,False,Dense baseline with starter context budget.,7/15,11/15,5/15,0.06666666666666667,0/2,0.008587200000000001,2.3646029000083217
+lexical_baseline,dev,lexical,3,800,2,False,Exact protocol names may favor lexical matching.,9/15,13/15,6/15,0.06666666666666667,0/1,0.0089948,2.5011307999957353
+hybrid_baseline,dev,hybrid,3,800,2,False,RRF can combine semantic and exact-term rankings.,10/15,14/15,6/15,0.0,0/1,0.0088556,2.281561199997668
+dense_context_3000,dev,dense,3,3000,2,False,Larger context may retain complete retrieved evidence; only budget changes from dense baseline.,7/15,11/15,12/15,0.13333333333333333,2/2,0.010200800000000001,2.093413299997337
+hybrid_top6_context_3000,dev,hybrid,6,3000,2,False,More candidates and a larger context may improve coverage. Two factors change together; not a causal isolation.,10/15,14/15,13/15,0.4666666666666667,4/4,0.011336,2.081668400001945
+hybrid_top6_context_3000_formatted,dev,hybrid,6,3000,2,True,Render only model-declared context-valid citations; compare after observed dev formatting errors.,10/15,14/15,13/15,1.7333333333333334,15/17,0.0114084,2.12442039999587
+dense_baseline,test,dense,3,800,2,False,Dense baseline with starter context budget.,4/5,5/5,3/5,0.0,0/0,0.0036324,2.7966213000036078
+hybrid_top6_context_3000_formatted,test,hybrid,6,3000,2,True,Render only model-declared context-valid citations; compare after observed dev formatting errors.,4/5,5/5,5/5,1.6,5/7,0.0048436,2.1385496000002604

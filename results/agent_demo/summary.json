@@ -1,0 +1,17 @@
+{
+  "status": "real_openai_demo_completed",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "model_calls_latest_attempt": 2,
+  "retrieval_calls_latest_attempt": 1,
+  "citation_id_checks_passed": true,
+  "semantic_answer_grade": null,
+  "semantic_citation_grade": null,
+  "latest_attempt_estimated_cost_usd": 0.000862,
+  "estimated_total_three_attempts_usd": 0.0034404,
+  "rate_source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+  "rate_note": "Standard input/output estimate, caching discounts ignored; not invoice cost.",
+  "benchmark_test_executed": false,
+  "benchmark_agent_dev_executed": false,
+  "secret_scan_passed": true,
+  "review_note": "Only ID/source integrity checked. The broad demonstration answer may overgeneralize client authentication conditions; assess actual claim support in dev review before claiming correctness."
+}

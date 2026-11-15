@@ -1,0 +1,272 @@
+[
+  {
+    "query_id": "d7-dev-q01",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": true,
+    "first_search_hit3": true,
+    "context_evidence": true,
+    "citation_ids_valid": [
+      true,
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "client identifier secret authenticate client alone",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q02",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": true,
+    "first_search_hit3": true,
+    "context_evidence": true,
+    "citation_ids_valid": [
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "number of authentication methods a client may use in one request",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q03",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": true,
+    "first_search_hit3": true,
+    "context_evidence": true,
+    "citation_ids_valid": [
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "authentication scheme server must support client password section 2",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q04",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": true,
+    "first_search_hit3": true,
+    "context_evidence": true,
+    "citation_ids_valid": [
+      true,
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "client credentials supplied as body parameters transmission",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q05",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": false,
+    "first_search_hit3": false,
+    "context_evidence": false,
+    "citation_ids_valid": [
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "attack endpoints must protect against password client authentication",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q06",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": false,
+    "first_search_hit3": true,
+    "context_evidence": true,
+    "citation_ids_valid": [
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "authorization endpoint URI fragment section 3",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q07",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": false,
+    "first_search_hit3": true,
+    "context_evidence": true,
+    "citation_ids_valid": [
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "HTTP method for access token requests",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q08",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": true,
+    "first_search_hit3": true,
+    "context_evidence": true,
+    "citation_ids_valid": [
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "maximum authorization code lifetime recommended",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q09",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": false,
+    "first_search_hit3": false,
+    "context_evidence": false,
+    "citation_ids_valid": [
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "implicit grant refresh token",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q10",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": false,
+    "first_search_hit3": true,
+    "context_evidence": true,
+    "citation_ids_valid": [
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "password credentials grant discard resource owner credentials client",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q11",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": true,
+    "first_search_hit3": true,
+    "context_evidence": true,
+    "citation_ids_valid": [
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "client credentials grant client type",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q12",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": true,
+    "first_search_hit3": true,
+    "context_evidence": true,
+    "citation_ids_valid": [
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "cache-control headers required in responses containing tokens or credentials",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q13",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": true,
+    "first_search_hit3": true,
+    "context_evidence": true,
+    "citation_ids_valid": [
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "token error expired revoked authorization grant refresh token",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q14",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": true,
+    "first_search_hit3": true,
+    "context_evidence": true,
+    "citation_ids_valid": [
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "client behavior when authorization server issues replacement refresh token",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-q15",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "answered",
+    "answerable": true,
+    "first_search_hit1": true,
+    "first_search_hit3": true,
+    "context_evidence": true,
+    "citation_ids_valid": [
+      true
+    ],
+    "search_count": 1,
+    "first_search_query": "client use access token token type it does not understand",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-abs-01",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "abstain",
+    "answerable": false,
+    "first_search_hit1": null,
+    "first_search_hit3": null,
+    "context_evidence": null,
+    "citation_ids_valid": [],
+    "search_count": 1,
+    "first_search_query": "code_verifier length PKCE S256",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  },
+  {
+    "query_id": "d7-dev-abs-02",
+    "config_id": "hybrid_top6_context_3000_formatted",
+    "status": "abstain",
+    "answerable": false,
+    "first_search_hit1": null,
+    "first_search_hit3": null,
+    "context_evidence": null,
+    "citation_ids_valid": [],
+    "search_count": 1,
+    "first_search_query": "JWT signing algorithm for access tokens",
+    "query_rewritten": true,
+    "semantic_grades_computed": false
+  }
+]

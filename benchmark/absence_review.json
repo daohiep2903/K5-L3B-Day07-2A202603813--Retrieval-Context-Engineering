@@ -1,0 +1,52 @@
+[
+  {
+    "query_id": "d7-dev-abs-01",
+    "absence_reason": "The selected RFC sections contain no PKCE S256 or code_verifier requirements.",
+    "scope": "Entire selected sections 2-7, not the whole Internet or all OAuth specifications",
+    "method": "AI-assisted reading of selected source and relevant sections plus full-corpus keyword checks; not inferred from failed top-k retrieval",
+    "keyword_counts": {
+      "PKCE": 0,
+      "code_verifier": 0,
+      "code_challenge": 0,
+      "S256": 0
+    },
+    "reviewer": "AI-assisted; student review pending"
+  },
+  {
+    "query_id": "d7-dev-abs-02",
+    "absence_reason": "No JWT signing algorithm is specified in the selected text. Token examples are not a mandate for a JWT algorithm.",
+    "scope": "Entire selected sections 2-7, not the whole Internet or all OAuth specifications",
+    "method": "AI-assisted reading of selected source and relevant sections plus full-corpus keyword checks; not inferred from failed top-k retrieval",
+    "keyword_counts": {
+      "JWT": 0,
+      "RS256": 0,
+      "HS256": 0,
+      "ES256": 0
+    },
+    "reviewer": "AI-assisted; student review pending"
+  },
+  {
+    "query_id": "d7-test-abs-03",
+    "absence_reason": "No DPoP proof format or mandated typ value is specified in the selected text.",
+    "scope": "Entire selected sections 2-7, not the whole Internet or all OAuth specifications",
+    "method": "AI-assisted reading of selected source and relevant sections plus full-corpus keyword checks; not inferred from failed top-k retrieval",
+    "keyword_counts": {
+      "DPoP": 0,
+      "dpop+jwt": 0
+    },
+    "reviewer": "AI-assisted; student review pending"
+  },
+  {
+    "query_id": "d7-test-abs-04",
+    "absence_reason": "The source discusses refresh-token binding, replacement and invalid/expired tokens, but supplies no universal fixed maximum refresh-token lifetime in days. Do not substitute the code lifetime or access-token examples.",
+    "scope": "Entire selected sections 2-7, not the whole Internet or all OAuth specifications",
+    "method": "AI-assisted reading of selected source and relevant sections plus full-corpus keyword checks; not inferred from failed top-k retrieval",
+    "keyword_counts": {
+      "refresh token": 29,
+      "lifetime": 3,
+      "expires": 7,
+      "days": 0
+    },
+    "reviewer": "AI-assisted; student review pending"
+  }
+]

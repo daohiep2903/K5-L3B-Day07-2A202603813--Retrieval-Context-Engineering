@@ -1,0 +1,1 @@
+{"attempts": [{"stage": "copy verification", "error": "Strict float equality failed because cosine vectors are renormalized when written to Qdrant", "resolution": "Check observed maximum component difference against 1e-6; retain exact source payload verification. No embedding fallback or benchmark score generated."}]}

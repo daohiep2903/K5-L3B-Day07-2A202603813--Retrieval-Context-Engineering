@@ -1,0 +1,9 @@
+{
+  "completed": 14,
+  "expected": 14,
+  "query_id": "d7-test-abs-04",
+  "config": "hybrid_top6_context_3000_formatted",
+  "status": "abstain",
+  "estimated_total_usd": 0.008476000000000001,
+  "test_tuning": false
+}
