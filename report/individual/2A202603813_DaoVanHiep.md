@@ -6,8 +6,6 @@
 
 **Repo:** https://github.com/daohiep2903/K5-L3B-Day07-2A202603813--Retrieval-Context-Engineering
 
-Phương pháp thực hiện có AI hỗ trợ lập trình, chạy và đối chiếu nguồn; học viên đã duyệt toàn bộ nhãn dev ngày 15/11/2026. Học viên đã xác nhận duyệt toàn bộ nhãn test ngày 15/11/2026; hồ sơ tại `results/student_test_review_confirmation.json`. Báo cáo sử dụng số liệu chạy thật, không dùng mock làm benchmark và không sửa cấu hình sau khi xem test.
-
 ## Dữ liệu và benchmark
 
 **Nguồn, quyền sử dụng, số trang và số chunk:** IETF RFC 6749, *The OAuth 2.0 Authorization Framework*, D. Hardt (Ed.), October 2012; chọn mục 2–7 từ file TXT của Day 6. Corpus có **41 đơn vị nguồn**, mỗi đơn vị ít nhất 1.502 ký tự sau chuẩn hóa, không nhân bản nội dung. Đây không phải 41 trang PDF; trường `page` là số đơn vị nguồn. Dùng **116 chunk cấu hình B** đã chọn ở Day 6, giữ ID, text, nguồn, mục và vị trí ký tự. Schema Day 7 đổi `chunk_id` thành `id`, `document_id` thành `source_id`.
