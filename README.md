@@ -1,18 +1,5 @@
 # Day 7 — Agentic RAG
 
-## Implemented submission: Dao Van Hiep - 2A202603813 - L3B
-
-The project now includes actual Day 6 corpus import, Qdrant dense retrieval, lexical TF-IDF, hybrid RRF and a real OpenAI tool-calling agent. Results include 102 agent dev traces and 14 frozen test traces. Dev and test labels were student-approved on 2026-11-15; confirmation records and initial review methodology are retained. The advanced challenge was not attempted.
-
-- Report: [Individual report](report/individual/2A202603813_DaoVanHiep.md)
-- Run/reproduce (Vietnamese): [Project guide](docs/RUN_PROJECT.md)
-- Results and remaining tasks: [Test interpretation](docs/AGENT_TEST.md), [submission checklist](SUBMISSION_CHECKLIST.md)
-- Experiment log: [CSV](artifacts/experiment_log.csv)
-- Student/repository information: [STUDENT.md](STUDENT.md)
-
-API credentials belong only in private `.env`. Local models, vector store and environments are excluded from Git. Retain source notices with RFC excerpts. The assignment instructions below are preserved for reference.
-
-
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
